@@ -111,7 +111,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     prefix: 'Headless'
   },
-  async setup (options, nuxt) {
+  async setup (options) {
     const entrypoint = await resolvePath('@headlessui/vue') // node_modules/@headlessui/vue/dist/headlessui.esm.js
     const root = join(entrypoint, '../components') // node_modules/@headlessui/vue/dist/components
 
