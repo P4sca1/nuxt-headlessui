@@ -14,6 +14,24 @@
   "files": [
     "dist"
   ],
+  "release": {
+    "branches": [
+      "master",
+      {
+        "name": "next",
+        "prerelease": true
+      }
+    ],
+    "preset": "angular",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
   "scripts": {
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
@@ -25,12 +43,15 @@
     "@nuxt/kit": "^3.0.0-rc.12"
   },
   "devDependencies": {
-    "@heroicons/vue": "^2.0.12",
-    "@nuxt/module-builder": "^0.2.0",
-    "@nuxt/schema": "^3.0.0-rc.12",
-    "@nuxtjs/eslint-config-typescript": "^11.0.0",
-    "@nuxtjs/tailwindcss": "^6.1.0",
-    "eslint": "^8.25.0",
-    "nuxt": "^3.0.0-rc.12"
+    "@heroicons/vue": "2.0.12",
+    "@nuxt/module-builder": "0.2.0",
+    "@nuxt/schema": "3.0.0-rc.12",
+    "@nuxtjs/eslint-config-typescript": "11.0.0",
+    "@nuxtjs/tailwindcss": "6.1.0",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "eslint": "8.25.0",
+    "nuxt": "3.0.0-rc.12",
+    "semantic-release": "19.0.5"
   }
 }

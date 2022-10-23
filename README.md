@@ -1,4 +1,4 @@
-# Nuxt Headless UI
+# Nuxt Headless UI ![CircleCI](https://circleci.com/gh/P4sca1/nuxt-headlessui.svg?style=svg)
 
 [Headless UI](https://headlessui.com) integration for Nuxt.
 Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
@@ -12,8 +12,11 @@ Headless UI documentation for Vue: https://headlessui.com/vue/menu
 
 ## Setup
 1. Add `nuxt-headlessui` dependency to your project
+
 `yarn add --dev nuxt-headlessui # or npm install --save-dev nuxt-headlessui`
+
 2. Add `nuxt-headlessui` to the `modules` section of `nuxt.config.ts`
+
 ```ts
 {
     modules: [
