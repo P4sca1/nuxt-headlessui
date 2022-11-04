@@ -1,4 +1,4 @@
-import { addComponent, defineNuxtModule, resolvePath } from '@nuxt/kit'
+import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit'
 import { join } from 'pathe'
 
 export interface ModuleOptions {
@@ -112,6 +112,7 @@ export default defineNuxtModule<ModuleOptions>({
     prefix: 'Headless'
   },
   async setup (options) {
+    const { resolvePath } = createResolver(import.meta.url)
     const entrypoint = await resolvePath('@headlessui/vue') // node_modules/@headlessui/vue/dist/headlessui.esm.js
     const root = join(entrypoint, '../components') // node_modules/@headlessui/vue/dist/components
 
