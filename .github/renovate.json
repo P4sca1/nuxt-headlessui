@@ -1,5 +1,5 @@
 {
 	"enabled": true,
 	"baseBranches": ["dev"],
-	"extends": ["github>IPS-Hosting/renovate-config"]
+	"extends": ["github>IPS-Hosting/renovate-config", ":pinOnlyDevDependencies"]
 }
