@@ -111,7 +111,16 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     prefix: 'Headless'
   },
-  async setup (options) {
+  async setup (options, nuxt) {
+    // Transpile @headlessui/vue
+    // https://github.com/nuxt/framework/issues/2326#issuecomment-1090168492
+    if (!nuxt.options.build.transpile.includes('@headlessui/vue')) {
+      nuxt.options.build.transpile.push('@headlessui/vue')
+    }
+
+    // Resolve path to node_modules/@headlessui/vue/dist/components.
+    // The dependency is resolved relative to the location of this file, so that package managers like pnpm
+    // without shamefully hoisting, or yarn with Plug'n'play enabled, also work.
     const { resolvePath } = createResolver(import.meta.url)
     const entrypoint = await resolvePath('@headlessui/vue') // node_modules/@headlessui/vue/dist/headlessui.esm.js
     const root = join(entrypoint, '../components') // node_modules/@headlessui/vue/dist/components
