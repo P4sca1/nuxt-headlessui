@@ -44,20 +44,20 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.7.3",
-    "@nuxt/kit": "^3.0.0-rc.12",
+    "@headlessui/vue": "^1.0.0",
+    "@nuxt/kit": "^3.0.0",
     "pathe": "^0.3.9"
   },
   "devDependencies": {
     "@heroicons/vue": "2.0.12",
     "@nuxt/module-builder": "0.2.0",
-    "@nuxt/schema": "3.0.0-rc.12",
     "@nuxtjs/eslint-config-typescript": "11.0.0",
     "@nuxtjs/tailwindcss": "6.1.0",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "eslint": "8.25.0",
-    "nuxt": "3.0.0-rc.12",
+    "nuxt": "3.0.0",
     "semantic-release": "19.0.5"
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }
