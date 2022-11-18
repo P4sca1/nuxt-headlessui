@@ -417,7 +417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/vue@npm:^1.0.0":
+"@headlessui/vue@npm:1.7.4":
   version: 1.7.4
   resolution: "@headlessui/vue@npm:1.7.4"
   peerDependencies:
@@ -819,7 +819,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.0.0, @nuxt/kit@npm:^3.0.0, @nuxt/kit@npm:^3.0.0-rc.12, @nuxt/kit@npm:^3.0.0-rc.14":
+"@nuxt/kit@npm:3.0.0, @nuxt/kit@npm:^3.0.0-rc.12, @nuxt/kit@npm:^3.0.0-rc.14":
   version: 3.0.0
   resolution: "@nuxt/kit@npm:3.0.0"
   dependencies:
@@ -7913,9 +7913,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt-headlessui@workspace:."
   dependencies:
-    "@headlessui/vue": ^1.0.0
+    "@headlessui/vue": 1.7.4
     "@heroicons/vue": 2.0.12
-    "@nuxt/kit": ^3.0.0
+    "@nuxt/kit": 3.0.0
     "@nuxt/module-builder": 0.2.0
     "@nuxtjs/eslint-config-typescript": 11.0.0
     "@nuxtjs/tailwindcss": 6.1.0
@@ -7923,7 +7923,7 @@ __metadata:
     "@semantic-release/git": 10.0.1
     eslint: 8.25.0
     nuxt: 3.0.0
-    pathe: ^0.3.9
+    pathe: 0.3.9
     semantic-release: 19.0.5
   languageName: unknown
   linkType: soft
@@ -8456,17 +8456,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pathe@npm:0.3.9, pathe@npm:^0.3.9":
+  version: 0.3.9
+  resolution: "pathe@npm:0.3.9"
+  checksum: 9afcbaa79c5f8ec603b6b0a20b9accfcec8de57e26738f4a844de4625cfb07cc733b7234387ef42c7ab23a49b91846b6b51cb247584793842a3179539af463df
+  languageName: node
+  linkType: hard
+
 "pathe@npm:^0.2.0":
   version: 0.2.0
   resolution: "pathe@npm:0.2.0"
   checksum: 9a8149ce152088f30d15b0b03a7c128ba21f16b4dc1f3f90fe38eee9f6d0f1d6da8e4e47bd2a4f9e14aaac7c30ed01cfc86216479011de2bdc598b65e6f19f41
-  languageName: node
-  linkType: hard
-
-"pathe@npm:^0.3.9":
-  version: 0.3.9
-  resolution: "pathe@npm:0.3.9"
-  checksum: 9afcbaa79c5f8ec603b6b0a20b9accfcec8de57e26738f4a844de4625cfb07cc733b7234387ef42c7ab23a49b91846b6b51cb247584793842a3179539af463df
   languageName: node
   linkType: hard
 
