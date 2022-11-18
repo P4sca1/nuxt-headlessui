@@ -9,9 +9,13 @@ node_modules
 .tmp
 .cache
 
-# Yarn
-**/.yarn/cache
-**/.yarn/*state*
+# Yarn berry with offline cache enabled
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 
 # Generated dirs
 dist
