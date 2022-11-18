@@ -51,7 +51,7 @@
   "devDependencies": {
     "@heroicons/vue": "2.0.12",
     "@nuxt/module-builder": "0.2.0",
-    "@nuxtjs/eslint-config-typescript": "11.0.0",
+    "@nuxtjs/eslint-config-typescript": "12.0.0",
     "@nuxtjs/tailwindcss": "6.1.0",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
