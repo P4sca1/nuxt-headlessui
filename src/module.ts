@@ -104,7 +104,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: 'nuxt-headlessui',
     configKey: 'headlessui',
     compatibility: {
-      nuxt: '^3.0.0-rc.12',
+      nuxt: '^3.0.0',
       bridge: true
     }
   },
