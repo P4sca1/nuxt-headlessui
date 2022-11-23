@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.2...v1.0.3) (2022-11-23)
+
+
+### Bug Fixes
+
+* no longer transpile @headlessui/vue ([a9418b5](https://github.com/P4sca1/nuxt-headlessui/commit/a9418b51f97715dbc67c8cf4f1cdfbb276c428ce))
+
 ## [1.0.2](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.1...v1.0.2) (2022-11-18)
 
 
