@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.3...v1.0.4) (2022-11-23)
+
+
+### Bug Fixes
+
+* require stable nuxt 3 release ([91b1803](https://github.com/P4sca1/nuxt-headlessui/commit/91b1803bd20dcea8d3884152ce03af32f1107494))
+
 ## [1.0.3](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.2...v1.0.3) (2022-11-23)
 
 
