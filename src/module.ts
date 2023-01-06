@@ -5,7 +5,14 @@ export interface ModuleOptions {
   prefix: string
 }
 
-const headlessComponents = [
+interface ComponentGroup {
+  relativePath: string
+  chunkName: string
+  exports: string[]
+  mode: 'client' | 'server' | 'all'
+}
+
+const headlessComponents: ComponentGroup[] = [
   {
     relativePath: 'combobox/combobox.js',
     chunkName: 'headless-ui/combobox',
@@ -16,7 +23,8 @@ const headlessComponents = [
       'ComboboxInput',
       'ComboboxOptions',
       'ComboboxOption'
-    ]
+    ],
+    mode: 'all'
   },
   {
     relativePath: 'dialog/dialog.js',
@@ -28,17 +36,20 @@ const headlessComponents = [
       'DialogPanel',
       'DialogTitle',
       'DialogDescription'
-    ]
+    ],
+    mode: 'client'
   },
   {
     relativePath: 'disclosure/disclosure.js',
     chunkName: 'headless-ui/disclosure',
-    exports: ['Disclosure', 'DisclosureButton', 'DisclosurePanel']
+    exports: ['Disclosure', 'DisclosureButton', 'DisclosurePanel'],
+    mode: 'all'
   },
   {
     relativePath: 'focus-trap/focus-trap.js',
     chunkName: 'headless-ui/focus-trap',
-    exports: ['FocusTrap']
+    exports: ['FocusTrap'],
+    mode: 'all'
   },
   {
     relativePath: 'listbox/listbox.js',
@@ -49,12 +60,14 @@ const headlessComponents = [
       'ListboxButton',
       'ListboxOptions',
       'ListboxOption'
-    ]
+    ],
+    mode: 'all'
   },
   {
     relativePath: 'menu/menu.js',
     chunkName: 'headless-ui/menu',
-    exports: ['Menu', 'MenuButton', 'MenuItems', 'MenuItem']
+    exports: ['Menu', 'MenuButton', 'MenuItems', 'MenuItem'],
+    mode: 'all'
   },
   {
     relativePath: 'popover/popover.js',
@@ -65,12 +78,14 @@ const headlessComponents = [
       'PopoverOverlay',
       'PopoverPanel',
       'PopoverGroup'
-    ]
+    ],
+    mode: 'client'
   },
   {
     relativePath: 'portal/portal.js',
     chunkName: 'headless-ui/portal',
-    exports: ['Portal', 'PortalGroup']
+    exports: ['Portal', 'PortalGroup'],
+    mode: 'client'
   },
   {
     relativePath: 'radio-group/radio-group.js',
@@ -80,22 +95,26 @@ const headlessComponents = [
       'RadioGroupOption',
       'RadioGroupLabel',
       'RadioGroupDescription'
-    ]
+    ],
+    mode: 'all'
   },
   {
     relativePath: 'switch/switch.js',
     chunkName: 'headless-ui/switch',
-    exports: ['SwitchGroup', 'Switch', 'SwitchLabel', 'SwitchDescription']
+    exports: ['SwitchGroup', 'Switch', 'SwitchLabel', 'SwitchDescription'],
+    mode: 'all'
   },
   {
     relativePath: 'tabs/tabs.js',
     chunkName: 'headless-ui/tabs',
-    exports: ['TabGroup', 'TabList', 'Tab', 'TabPanels', 'TabPanel']
+    exports: ['TabGroup', 'TabList', 'Tab', 'TabPanels', 'TabPanel'],
+    mode: 'all'
   },
   {
     relativePath: 'transitions/transition.js',
     chunkName: 'headless-ui/transition',
-    exports: ['TransitionChild', 'TransitionRoot']
+    exports: ['TransitionChild', 'TransitionRoot'],
+    mode: 'all'
   }
 ]
 
@@ -127,7 +146,7 @@ export default defineNuxtModule<ModuleOptions>({
             export: e,
             filePath: join(root, group.relativePath),
             chunkName: group.chunkName,
-            mode: 'all'
+            mode: group.mode
           }
         )
       }
