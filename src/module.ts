@@ -15,7 +15,7 @@ interface ComponentGroup {
 const headlessComponents: ComponentGroup[] = [
   {
     relativePath: 'combobox/combobox.js',
-    chunkName: 'headless-ui/combobox',
+    chunkName: 'headlessui/combobox',
     exports: [
       'Combobox',
       'ComboboxLabel',
@@ -28,7 +28,7 @@ const headlessComponents: ComponentGroup[] = [
   },
   {
     relativePath: 'dialog/dialog.js',
-    chunkName: 'headless-ui/dialog',
+    chunkName: 'headlessui/dialog',
     exports: [
       'Dialog',
       'DialogOverlay',
@@ -41,19 +41,19 @@ const headlessComponents: ComponentGroup[] = [
   },
   {
     relativePath: 'disclosure/disclosure.js',
-    chunkName: 'headless-ui/disclosure',
+    chunkName: 'headlessui/disclosure',
     exports: ['Disclosure', 'DisclosureButton', 'DisclosurePanel'],
     mode: 'all'
   },
   {
     relativePath: 'focus-trap/focus-trap.js',
-    chunkName: 'headless-ui/focus-trap',
+    chunkName: 'headlessui/focus-trap',
     exports: ['FocusTrap'],
     mode: 'all'
   },
   {
     relativePath: 'listbox/listbox.js',
-    chunkName: 'headless-ui/listbox',
+    chunkName: 'headlessui/listbox',
     exports: [
       'Listbox',
       'ListboxLabel',
@@ -65,13 +65,13 @@ const headlessComponents: ComponentGroup[] = [
   },
   {
     relativePath: 'menu/menu.js',
-    chunkName: 'headless-ui/menu',
+    chunkName: 'headlessui/menu',
     exports: ['Menu', 'MenuButton', 'MenuItems', 'MenuItem'],
     mode: 'all'
   },
   {
     relativePath: 'popover/popover.js',
-    chunkName: 'headless-ui/popover',
+    chunkName: 'headlessui/popover',
     exports: [
       'Popover',
       'PopoverButton',
@@ -83,13 +83,13 @@ const headlessComponents: ComponentGroup[] = [
   },
   {
     relativePath: 'portal/portal.js',
-    chunkName: 'headless-ui/portal',
+    chunkName: 'headlessui/portal',
     exports: ['Portal', 'PortalGroup'],
     mode: 'client'
   },
   {
     relativePath: 'radio-group/radio-group.js',
-    chunkName: 'headless-ui/radio-group',
+    chunkName: 'headlessui/radio-group',
     exports: [
       'RadioGroup',
       'RadioGroupOption',
@@ -100,19 +100,19 @@ const headlessComponents: ComponentGroup[] = [
   },
   {
     relativePath: 'switch/switch.js',
-    chunkName: 'headless-ui/switch',
+    chunkName: 'headlessui/switch',
     exports: ['SwitchGroup', 'Switch', 'SwitchLabel', 'SwitchDescription'],
     mode: 'all'
   },
   {
     relativePath: 'tabs/tabs.js',
-    chunkName: 'headless-ui/tabs',
+    chunkName: 'headlessui/tabs',
     exports: ['TabGroup', 'TabList', 'Tab', 'TabPanels', 'TabPanel'],
     mode: 'all'
   },
   {
     relativePath: 'transitions/transition.js',
-    chunkName: 'headless-ui/transition',
+    chunkName: 'headlessui/transition',
     exports: ['TransitionChild', 'TransitionRoot'],
     mode: 'all'
   }
