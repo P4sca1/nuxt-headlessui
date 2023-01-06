@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.4...v1.1.0) (2023-01-06)
+
+
+### Bug Fixes
+
+* no longer transpile @headlessui/vue ([d8c8b3e](https://github.com/P4sca1/nuxt-headlessui/commit/d8c8b3e0fd7161cb69bfcba357cfb34af074a8d3))
+* require stable nuxt 3 release ([2431b81](https://github.com/P4sca1/nuxt-headlessui/commit/2431b81b1ffbc781f0f6cc22195b43c68238c70d))
+
+
+### Features
+
+* make portal, popover, and Dialog client components ([fcc9b89](https://github.com/P4sca1/nuxt-headlessui/commit/fcc9b89a009ad23bfd9fff7d8453f363b80bb214)), closes [#18](https://github.com/P4sca1/nuxt-headlessui/issues/18)
+
 ## [1.0.4](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.3...v1.0.4) (2022-11-23)
 
 
