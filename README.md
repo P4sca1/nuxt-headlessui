@@ -114,6 +114,11 @@ const selectedPerson = ref(people[0])
 </script>
 ```
 
+## Note about client-only components
+Some headless components, such as `Portal`, `Popover`, or `Dialog` are client-only components. They will lead to hydration errors when rendered on the server. You need to wrap them with `ClientOnly`.
+See https://github.com/tailwindlabs/headlessui/issues/1496 and https://github.com/tailwindlabs/headlessui/issues/1496.
+
+
 ## Development
 
 - Run `yarn` to install dependencies
