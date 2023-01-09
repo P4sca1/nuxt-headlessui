@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/P4sca1/nuxt-headlessui/compare/v1.1.0...v1.1.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* revert „feat: make portal, popover, and Dialog client components“ ([c71eaa1](https://github.com/P4sca1/nuxt-headlessui/commit/c71eaa112e79cd279d93a5171df59616149c1d62)), closes [#18](https://github.com/P4sca1/nuxt-headlessui/issues/18) [#20](https://github.com/P4sca1/nuxt-headlessui/issues/20)
+
 # [1.1.0](https://github.com/P4sca1/nuxt-headlessui/compare/v1.0.4...v1.1.0) (2023-01-06)
 
 
