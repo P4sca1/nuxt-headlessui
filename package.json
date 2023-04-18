@@ -10,6 +10,7 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./dist/types.d.ts",
       "import": "./dist/module.mjs",
       "require": "./dist/module.cjs"
     }
@@ -41,7 +42,8 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@headlessui/vue": "^1.0.0",
@@ -50,11 +52,13 @@
   },
   "devDependencies": {
     "@heroicons/vue": "2.0.17",
+    "@nuxt/eslint-config": "0.1.1",
     "@nuxt/module-builder": "0.3.0",
-    "@nuxtjs/eslint-config-typescript": "12.0.0",
+    "@nuxt/schema": "3.4.1",
     "@nuxtjs/tailwindcss": "6.6.6",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
+    "@types/node": "^18",
     "eslint": "8.38.0",
     "nuxt": "3.4.1",
     "semantic-release": "21.0.1"
