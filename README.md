@@ -114,6 +114,8 @@ const selectedPerson = ref(people[0])
 </script>
 ```
 
+If you are using [Tailwind CSS](https://tailwindcss.com/), you can use the [@headlessui/tailwindcss](https://github.com/tailwindlabs/headlessui/tree/main/packages/%40headlessui-tailwindcss) plugin to get modifiers like `ui-open:*` and `ui-active:*`.
+
 ## Note about client-only components
 Some headless components, such as `Portal`, `Popover`, or `Dialog` are client-only components. They will lead to hydration errors when rendered on the server. You need to wrap them with `ClientOnly`.
 See https://github.com/tailwindlabs/headlessui/issues/1496 and https://github.com/tailwindlabs/headlessui/issues/1496.
