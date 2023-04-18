@@ -3197,9 +3197,9 @@ __metadata:
   linkType: hard
 
 "consola@npm:^3.0.1, consola@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "consola@npm:3.0.2"
-  checksum: e82503d738d410e36aca1543a37fb8ca385cd38c86b8fb055086f3df223ab1c353cea4e649b46169b5b7e9a7a61997f2693a57611522331d50a7811a372a816e
+  version: 3.1.0
+  resolution: "consola@npm:3.1.0"
+  checksum: b4b16b0ff6a0645fb1b820cf89dd56c8601b9ae0e2c472652bce2f5d99932ed5b38ef7ad2cfa77f4534cd6264d99cf5cf9c3c888e98cc25fbd3c87d31c824975
   languageName: node
   linkType: hard
 
@@ -9218,8 +9218,8 @@ __metadata:
   linkType: hard
 
 "rollup@npm:^3.18.0, rollup@npm:^3.20.2":
-  version: 3.20.5
-  resolution: "rollup@npm:3.20.5"
+  version: 3.20.6
+  resolution: "rollup@npm:3.20.6"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -9227,7 +9227,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 5f154ea6835bd3700478d399f152237d190eb0ea48d75983f87da5e01f5f624a7264e163e0f2a5d84079d6a5d116c620f0d2bef34f757723406606b7d04fb6a9
+  checksum: fa30f1e1d214b8c62e631d3c181a75d61bc9c20fca38220d6f938bb3bf734a874e407cd641c90f550dc2b127df5029dfb3108be08934a654f1f40b50f368b0c2
   languageName: node
   linkType: hard
 
@@ -10042,8 +10042,8 @@ __metadata:
   linkType: hard
 
 "terser@npm:^5.15.1":
-  version: 5.16.9
-  resolution: "terser@npm:5.16.9"
+  version: 5.17.0
+  resolution: "terser@npm:5.17.0"
   dependencies:
     "@jridgewell/source-map": ^0.3.2
     acorn: ^8.5.0
@@ -10051,7 +10051,7 @@ __metadata:
     source-map-support: ~0.5.20
   bin:
     terser: bin/terser
-  checksum: b373693ee01ce08cc9b9595d57df889acbbc899d929a7fe53662330ce954d53145582f6715c9cc4839d555f5769a28fbeb203155b54e3a9c6c646db292002edd
+  checksum: 2652b846828dfc0f57d97cf719666cf4c0238345a68775a7016830d6a82636240eb26d5e0fc72e87fbc534a9099c09301ffdf5ee644ddc4686705eba071d72fc
   languageName: node
   linkType: hard
 
@@ -10410,14 +10410,14 @@ __metadata:
   linkType: hard
 
 "unctx@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "unctx@npm:2.2.0"
+  version: 2.3.0
+  resolution: "unctx@npm:2.3.0"
   dependencies:
     acorn: ^8.8.2
     estree-walker: ^3.0.3
     magic-string: ^0.30.0
     unplugin: ^1.3.1
-  checksum: 7b6c43ff7b0c10e16ae5223cc09ec4294efcdfda1237c3fb060785fac0f5cc780e1140451d62a36a39d311ab67852fb80feb3dffef6417bb41b2de9f2673a180
+  checksum: 1b8ba500d9c5d7379d1c66bc1b19a919b7feb156ca8a51e6fd3a8d1140943d5ff9aafa290bd6e428a5810675f2dd7b18a743ffd757379e2b7dced69b970143d9
   languageName: node
   linkType: hard
 
