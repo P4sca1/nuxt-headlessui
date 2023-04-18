@@ -6,7 +6,7 @@ orbs:
 jobs:
   release:
     docker:
-      - image: circleci/node:16
+      - image: circleci/node:18
     steps:
       - checkout
       - run:
@@ -15,7 +15,9 @@ jobs:
       - run:
           name: Prepare
           command: yarn dev:prepare
-      - run: yarn semantic-release
+      - run:
+        name: Release
+        command: yarn semantic-release
 
 workflows:
   release:
