@@ -45,19 +45,19 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.0.0",
-    "@nuxt/kit": "^3.0.0",
-    "pathe": "^1.0.0"
+    "@nuxt/kit": "^3.4.1",
+    "pathe": "^1.1.0"
   },
   "devDependencies": {
-    "@heroicons/vue": "2.0.13",
-    "@nuxt/module-builder": "0.2.1",
+    "@heroicons/vue": "2.0.17",
+    "@nuxt/module-builder": "0.3.0",
     "@nuxtjs/eslint-config-typescript": "12.0.0",
-    "@nuxtjs/tailwindcss": "6.2.0",
-    "@semantic-release/changelog": "6.0.2",
+    "@nuxtjs/tailwindcss": "6.6.6",
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "eslint": "8.31.0",
-    "nuxt": "3.0.0",
-    "semantic-release": "19.0.5"
+    "eslint": "8.38.0",
+    "nuxt": "3.4.1",
+    "semantic-release": "21.0.1"
   },
   "packageManager": "yarn@3.3.1"
 }
