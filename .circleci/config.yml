@@ -16,8 +16,8 @@ jobs:
           name: Prepare
           command: yarn dev:prepare
       - run:
-        name: Release
-        command: yarn semantic-release
+          name: Release
+          command: yarn semantic-release
 
 workflows:
   release:
