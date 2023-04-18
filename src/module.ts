@@ -124,7 +124,7 @@ export default defineNuxtModule<ModuleOptions>({
     // The dependency is resolved relative to the location of this file, so that package managers like pnpm
     // without shamefully hoisting, or yarn with Plug'n'play enabled, also work.
     const { resolvePath } = createResolver(import.meta.url)
-    const entrypoint = await resolvePath('@headlessui/vue') // node_modules/@headlessui/vue/dist/headlessui.esm.js
+    const entrypoint = await resolvePath('@headlessui/vue') // node_modules/@headlessui/vue/dist/index.cjs
     const root = join(entrypoint, '../components') // node_modules/@headlessui/vue/dist/components
 
     for (const group of headlessComponents) {
