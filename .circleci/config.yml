@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  node: circleci/node@5.0.3
-
 jobs:
   release:
     docker:
@@ -12,6 +9,9 @@ jobs:
       - run:
           name: Install Dependencies
           command: yarn install
+      - run:
+          name: Prepare
+          command: yarn dev:prepare
       - run:
           name: Release
           command: yarn semantic-release
