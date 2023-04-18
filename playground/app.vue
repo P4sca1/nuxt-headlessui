@@ -1,7 +1,10 @@
 <template>
   <div class="container mx-auto p-4">
     <!-- Listbox -->
-    <HeadlessListbox v-model="selectedPerson" class="w-72">
+    <HeadlessListbox
+      v-model="selectedPerson"
+      class="w-72"
+    >
       <div class="relative mt-1">
         <HeadlessListboxButton
           class="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm"
@@ -47,7 +50,10 @@
                   v-if="selected"
                   class="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600"
                 >
-                  <CheckIcon class="h-5 w-5" aria-hidden="true" />
+                  <CheckIcon
+                    class="h-5 w-5"
+                    aria-hidden="true"
+                  />
                 </span>
               </li>
             </HeadlessListboxOption>
@@ -67,9 +73,16 @@
       </button>
     </div>
 
-    <HeadlessTransitionRoot appear :show="isOpen">
+    <HeadlessTransitionRoot
+      appear
+      :show="isOpen"
+    >
       <ClientOnly>
-        <HeadlessDialog as="div" class="relative z-10" @close="closeModal">
+        <HeadlessDialog
+          as="div"
+          class="relative z-10"
+          @close="closeModal"
+        >
           <HeadlessTransitionChild
             enter="duration-300 ease-out"
             enter-from="opacity-0"

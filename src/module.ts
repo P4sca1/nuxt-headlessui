@@ -119,7 +119,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     prefix: 'Headless'
   },
-  async setup (options, nuxt) {
+  async setup (options) {
     // Resolve path to node_modules/@headlessui/vue/dist/components.
     // The dependency is resolved relative to the location of this file, so that package managers like pnpm
     // without shamefully hoisting, or yarn with Plug'n'play enabled, also work.
