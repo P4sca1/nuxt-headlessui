@@ -49,15 +49,15 @@
     "pathe": "^1.1.0"
   },
   "devDependencies": {
-    "@heroicons/vue": "2.0.17",
-    "@nuxt/module-builder": "0.3.0",
-    "@nuxtjs/eslint-config-typescript": "12.0.0",
-    "@nuxtjs/tailwindcss": "6.6.6",
+    "@heroicons/vue": "2.1.1",
+    "@nuxt/module-builder": "0.5.4",
+    "@nuxtjs/eslint-config-typescript": "12.1.0",
+    "@nuxtjs/tailwindcss": "6.10.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "eslint": "8.38.0",
-    "nuxt": "3.4.1",
-    "semantic-release": "21.0.1"
+    "eslint": "8.56.0",
+    "nuxt": "3.8.2",
+    "semantic-release": "21.1.2"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.7.0"
 }
