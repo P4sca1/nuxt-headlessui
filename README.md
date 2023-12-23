@@ -1,19 +1,36 @@
 # Nuxt Headless UI ![CircleCI](https://circleci.com/gh/P4sca1/nuxt-headlessui.svg?style=svg)
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+[![Nuxt][nuxt-src]][nuxt-href]
+
 [Headless UI](https://headlessui.com) integration for Nuxt.
 Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
 Headless UI documentation for Vue: https://headlessui.com/vue/menu
 
+- [✨ &nbsp;Release Notes](/CHANGELOG.md)
+- [🏀 Online playground](https://stackblitz.com/github/P4sca1/nuxt-headlessui?file=playground%2Fapp.vue)
+
 ## Features
 - Automatic dynamic imports (no global components)
 - Fully type safe
-- Configurable component prefix (defults to `Headless`)
+- Configurable component prefix (defaults to `Headless`)
 
-## Setup
+## Quick Setup
 1. Add `nuxt-headlessui` dependency to your project
 
-`yarn add --dev nuxt-headlessui # or npm install --save-dev nuxt-headlessui`
+```bash
+# Using pnpm
+pnpm add -D nuxt-headlessui
+
+# Using yarn
+yarn add --dev nuxt-headlessui
+
+# Using npm
+npm install --save-dev nuxt-headlessui
+```
 
 2. Add `nuxt-headlessui` to the `modules` section of `nuxt.config.ts`
 
@@ -29,6 +46,8 @@ Headless UI documentation for Vue: https://headlessui.com/vue/menu
     }
 }
 ```
+
+That's it! You can now use Headless UI in your Nuxt app ✨
 
 ## Usage
 After completing setup, simply use the headless components in your components and pages and style them with your favourite CSS framework.
@@ -123,6 +142,32 @@ See https://github.com/tailwindlabs/headlessui/issues/1496.
 
 ## Development
 
-- Run `yarn` to install dependencies
-- Run `yarn dev:prepare` to generate type stubs.
-- Use `yarn dev` to start [playground](./playground) in development mode.
+```bash
+# Install dependencies
+pnpm install
+
+# Generate type stubs
+pnpm run dev:prepare
+
+# Develop with the playground
+pnpm run dev
+
+# Build the playground
+pnpm run dev:build
+
+# Run ESLint
+pnpm run lint
+```
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-headlessui/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-headlessui
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-headlessui.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-headlessui
+
+[license-src]: https://img.shields.io/npm/l/nuxt-headlessui.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-headlessui
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
+[nuxt-href]: https://nuxt.com

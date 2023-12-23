@@ -8,13 +8,13 @@ jobs:
       - checkout
       - run:
           name: Install Dependencies
-          command: yarn install
+          command: pnpm install
       - run:
           name: Prepare
-          command: yarn dev:prepare
+          command: pnpm run dev:prepare
       - run:
           name: Release
-          command: yarn semantic-release
+          command: pnpm run semantic-release
 
 workflows:
   release:
