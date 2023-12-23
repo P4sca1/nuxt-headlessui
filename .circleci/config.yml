@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   release:
     docker:
-      - image: cimg/node:18.16
+      - image: cimg/node:20.9
     steps:
       - checkout
       - run:
