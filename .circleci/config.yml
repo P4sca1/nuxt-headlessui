@@ -13,8 +13,11 @@ jobs:
           name: Prepare
           command: pnpm run dev:prepare
       - run:
+          name: Lint
+          command: pnpm run lint
+      - run:
           name: Release
-          command: pnpm run semantic-release
+          command: pnpm semantic-release
 
 workflows:
   release:
