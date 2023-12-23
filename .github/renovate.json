@@ -1,5 +1,10 @@
 {
 	"enabled": true,
-	"baseBranches": ["dev"],
-	"extends": ["github>IPS-Hosting/renovate-config", ":preserveSemverRanges"]
+	"baseBranches": [
+		"main"
+	],
+	"extends": [
+		"github>IPS-Hosting/renovate-config",
+		":preserveSemverRanges"
+	]
 }
