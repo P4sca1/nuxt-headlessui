@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/P4sca1/nuxt-headlessui/compare/v1.1.4...v1.1.5) (2023-12-23)
+
+
+### Bug Fixes
+
+* enable typescript bundler module resolution, build with latest module builder ([a0a252d](https://github.com/P4sca1/nuxt-headlessui/commit/a0a252df77784f5643dee8e8c8760339eeb3f819))
+
 ## [1.1.4](https://github.com/P4sca1/nuxt-headlessui/compare/v1.1.3...v1.1.4) (2023-04-18)
 
 
