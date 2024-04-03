@@ -22,14 +22,7 @@ Headless UI documentation for Vue: https://headlessui.com/vue/menu
 1. Add `nuxt-headlessui` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-headlessui
-
-# Using yarn
-yarn add --dev nuxt-headlessui
-
-# Using npm
-npm install --save-dev nuxt-headlessui
+npx nuxi@latest module add headlessui
 ```
 
 2. Add `nuxt-headlessui` to the `modules` section of `nuxt.config.ts`
