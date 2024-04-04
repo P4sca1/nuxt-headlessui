@@ -1,7 +1,7 @@
 {
   "name": "nuxt-headlessui",
   "description": "Headless UI integration for Nuxt",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",

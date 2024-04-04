@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/P4sca1/nuxt-headlessui/compare/v1.1.5...v1.2.0) (2024-04-04)
+
+
+### Bug Fixes
+
+* **deps:** upgrade all dependencies ([548561f](https://github.com/P4sca1/nuxt-headlessui/commit/548561f40cdc255482c8bad3b36c22758449fac4))
+
+
+### Features
+
+* expose provideHeadlessUseId composable ([482700b](https://github.com/P4sca1/nuxt-headlessui/commit/482700ba1717c7368e9da5cb2eb07cb41d17d9b7))
+
 ## [1.1.5](https://github.com/P4sca1/nuxt-headlessui/compare/v1.1.4...v1.1.5) (2023-12-23)
 
 
