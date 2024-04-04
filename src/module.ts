@@ -1,4 +1,5 @@
-import { addComponent, createResolver, defineNuxtModule } from '@nuxt/kit'
+import { provideUseId } from '@headlessui/vue'
+import { addComponent, addImports, addPlugin, createResolver, defineNuxtModule } from '@nuxt/kit'
 import { join } from 'pathe'
 
 export interface ModuleOptions {
@@ -119,7 +120,7 @@ export default defineNuxtModule<ModuleOptions>({
   defaults: {
     prefix: 'Headless'
   },
-  async setup (options) {
+  async setup(options) {
     // Resolve path to node_modules/@headlessui/vue/dist/components.
     // The dependency is resolved relative to the location of this file, so that package managers like pnpm
     // without shamefully hoisting, or yarn with Plug'n'play enabled, also work.
@@ -140,5 +141,12 @@ export default defineNuxtModule<ModuleOptions>({
         )
       }
     }
+
+    addImports({
+      name: "provideUseId",
+      from: entrypoint,
+      as: "provideHeadlessUseId",
+    })
   }
 })
+

@@ -47,6 +47,14 @@ npm install --save-dev nuxt-headlessui
 }
 ```
 
+3. Add the following lines to your `app.vue` file inside `<script setup>`:
+
+```ts
+// Use SSR-safe IDs for Headless UI
+provideHeadlessUseId(() => useId())
+```
+This is required to avoid hydration issues, because of id mismatches. Both composables will be auto-imported by nuxt. The `provideHeadlessUseId` composable is an alias for the `provideUseId` composable from `@headlessui/vue`. `import { provideUseId } from '@headlessui/vue'` directly [won't work out of the box](https://github.com/P4sca1/nuxt-headlessui/issues/41).
+
 That's it! You can now use Headless UI in your Nuxt app ✨
 
 ## Usage
