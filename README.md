@@ -135,6 +135,7 @@ const selectedPerson = ref(people[0])
 ```
 
 If you are using [Tailwind CSS](https://tailwindcss.com/), you can use the [@headlessui/tailwindcss](https://github.com/tailwindlabs/headlessui/tree/main/packages/%40headlessui-tailwindcss) plugin to get modifiers like `ui-open:*` and `ui-active:*`.
+There is a [unocss primitives preset]https://github.com/zirbest/unocss-preset-primitives/tree/main)  which does this in case if you are using UnoCss.
 
 ## Development
 
