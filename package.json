@@ -61,7 +61,7 @@
     "@types/node": "20.12.4",
     "eslint": "8.57.0",
     "nuxt": "3.11.2",
-    "semantic-release": "23.0.7"
+    "semantic-release": "24.0.0"
   },
   "packageManager": "pnpm@9.4.0"
 }
