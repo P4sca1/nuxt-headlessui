@@ -51,17 +51,17 @@
     "pathe": "^1.1.2"
   },
   "devDependencies": {
-    "@heroicons/vue": "2.1.4",
-    "@nuxt/eslint-config": "0.3.13",
+    "@heroicons/vue": "2.1.5",
+    "@nuxt/eslint-config": "0.5.0",
     "@nuxt/module-builder": "0.8.1",
-    "@nuxt/schema": "3.12.2",
-    "@nuxtjs/tailwindcss": "6.12.0",
+    "@nuxt/schema": "3.12.4",
+    "@nuxtjs/tailwindcss": "6.12.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.14",
     "eslint": "8.57.0",
-    "nuxt": "3.12.2",
+    "nuxt": "3.12.4",
     "semantic-release": "24.0.0"
   },
-  "packageManager": "pnpm@9.4.0"
+  "packageManager": "pnpm@9.7.0"
 }
