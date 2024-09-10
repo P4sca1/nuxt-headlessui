@@ -42,6 +42,9 @@ npx nuxi@latest module add headlessui
 
 3. Add the following lines to your `app.vue` file inside `<script setup>`:
 
+> [!NOTE]  
+> This is only needed if you use versions prior to `vue@3.5.0` or `@headlessui/vue@1.7.23`. More recent versions use the native `useId` composable provided by Vue.
+
 ```ts
 // Use SSR-safe IDs for Headless UI
 provideHeadlessUseId(() => useId())
