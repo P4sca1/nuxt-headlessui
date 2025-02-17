@@ -19,8 +19,8 @@ importers:
         version: 1.1.2
     devDependencies:
       '@heroicons/vue':
-        specifier: 2.1.4
-        version: 2.1.4(vue@3.4.31(typescript@5.4.4))
+        specifier: 2.2.0
+        version: 2.2.0(vue@3.4.31(typescript@5.4.4))
       '@nuxt/eslint-config':
         specifier: 0.7.6
         version: 0.7.6(@vue/compiler-sfc@3.4.31)(eslint@8.57.0)(typescript@5.4.4)
@@ -859,8 +859,8 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
-  '@heroicons/vue@2.1.4':
-    resolution: {integrity: sha512-wykVSZ/fqEG49lIeHgFGT9TCvBw9THuRTtA/sPp7FVk3iBob/HcmitMcLDwtXOW82TXb38HeLRl1/pcElPeSdg==}
+  '@heroicons/vue@2.2.0':
+    resolution: {integrity: sha512-G3dbSxoeEKqbi/DFalhRxJU4mTXJn7GwZ7ae8NuEQzd1bqdd0jAbdaBZlHPcvPD2xI1iGzNVB4k20Un2AguYPw==}
     peerDependencies:
       vue: '>= 3'
 
@@ -6279,7 +6279,7 @@ snapshots:
       '@tanstack/vue-virtual': 3.2.0(vue@3.4.31(typescript@5.4.4))
       vue: 3.4.31(typescript@5.4.4)
 
-  '@heroicons/vue@2.1.4(vue@3.4.31(typescript@5.4.4))':
+  '@heroicons/vue@2.2.0(vue@3.4.31(typescript@5.4.4))':
     dependencies:
       vue: 3.4.31(typescript@5.4.4)
 
