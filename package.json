@@ -48,7 +48,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.18",
     "@nuxt/kit": "^3.11.2",
-    "pathe": "^1.1.2"
+    "pathe": "^2.0.0"
   },
   "devDependencies": {
     "@heroicons/vue": "2.1.4",
