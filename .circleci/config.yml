@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   release:
     docker:
-      - image: cimg/node:20.15
+      - image: cimg/node:20.15@sha256:0185d41227bb532ca32fe2ba7c28c950fcc3f81ce68542e7ad86e689b969a78e
     steps:
       - checkout
       - run:
