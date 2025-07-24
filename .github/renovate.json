@@ -1,6 +1,6 @@
 {
 	"enabled": true,
-	"baseBranches": [
+	"baseBranchPatterns": [
 		"main"
 	],
 	"extends": [
