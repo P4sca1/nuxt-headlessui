@@ -1,7 +1,7 @@
 {
 	"name": "nuxt-headlessui",
 	"description": "Headless UI integration for Nuxt",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -17,10 +17,14 @@
 	"main": "./dist/module.mjs",
 	"typesVersions": {
 		"*": {
-			".": ["./dist/types.d.mts"]
+			".": [
+				"./dist/types.d.mts"
+			]
 		}
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"release": {
 		"branches": [
 			"main",
@@ -66,6 +70,10 @@
 	},
 	"packageManager": "pnpm@10.14.0-0+sha512.2cd47a0cbf5f1d1de7693a88307a0ede5be94e0d3b34853d800ee775efbea0650cb562b77605ec80bc8d925f5cd27c4dfe8bb04d3a0b76090784c664450d32d6",
 	"pnpm": {
-		"onlyBuiltDependencies": ["@parcel/watcher", "esbuild", "unrs-resolver"]
+		"onlyBuiltDependencies": [
+			"@parcel/watcher",
+			"esbuild",
+			"unrs-resolver"
+		]
 	}
 }
