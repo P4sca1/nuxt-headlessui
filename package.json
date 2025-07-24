@@ -1,67 +1,71 @@
 {
-  "name": "nuxt-headlessui",
-  "description": "Headless UI integration for Nuxt",
-  "version": "1.2.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/P4sca1/nuxt-headlessui.git"
-  },
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
-    }
-  },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
-  "files": [
-    "dist"
-  ],
-  "release": {
-    "branches": [
-      "main",
-      {
-        "name": "next",
-        "prerelease": true
-      }
-    ],
-    "preset": "angular",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/npm",
-      "@semantic-release/github",
-      "@semantic-release/git"
-    ]
-  },
-  "scripts": {
-    "prepack": "nuxt-module-build build",
-    "dev": "nuxi dev playground",
-    "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "@headlessui/vue": "^1.7.18",
-    "@nuxt/kit": "^3.11.2",
-    "pathe": "^1.1.2"
-  },
-  "devDependencies": {
-    "@heroicons/vue": "2.1.4",
-    "@nuxt/eslint-config": "0.7.6",
-    "@nuxt/module-builder": "0.8.1",
-    "@nuxt/schema": "3.12.2",
-    "@nuxtjs/tailwindcss": "6.12.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "@types/node": "20.14.9",
-    "eslint": "8.57.0",
-    "nuxt": "3.12.2",
-    "semantic-release": "24.2.3"
-  },
-  "packageManager": "pnpm@10.4.1"
+	"name": "nuxt-headlessui",
+	"description": "Headless UI integration for Nuxt",
+	"version": "1.2.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/P4sca1/nuxt-headlessui.git"
+	},
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/types.d.mts",
+			"import": "./dist/module.mjs"
+		}
+	},
+	"main": "./dist/module.mjs",
+	"typesVersions": {
+		"*": {
+			".": ["./dist/types.d.mts"]
+		}
+	},
+	"files": ["dist"],
+	"release": {
+		"branches": [
+			"main",
+			{
+				"name": "next",
+				"prerelease": true
+			}
+		],
+		"preset": "angular",
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			"@semantic-release/changelog",
+			"@semantic-release/npm",
+			"@semantic-release/github",
+			"@semantic-release/git"
+		]
+	},
+	"scripts": {
+		"prepack": "nuxt-module-build build",
+		"dev": "pnpm run dev:prepare && nuxi dev playground",
+		"dev:build": "nuxi build playground",
+		"dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"@headlessui/vue": "^1.7.18",
+		"@nuxt/kit": "^4.0.1",
+		"pathe": "^2.0.3"
+	},
+	"devDependencies": {
+		"@heroicons/vue": "2.2.0",
+		"@nuxt/eslint-config": "1.7.0",
+		"@nuxt/module-builder": "1.0.1",
+		"@nuxt/schema": "4.0.1",
+		"@nuxtjs/tailwindcss": "6.14.0",
+		"@semantic-release/changelog": "6.0.3",
+		"@semantic-release/git": "10.0.1",
+		"@types/node": "22.16.5",
+		"eslint": "9.31.0",
+		"nuxt": "4.0.1",
+		"semantic-release": "24.2.7"
+	},
+	"packageManager": "pnpm@10.14.0-0+sha512.2cd47a0cbf5f1d1de7693a88307a0ede5be94e0d3b34853d800ee775efbea0650cb562b77605ec80bc8d925f5cd27c4dfe8bb04d3a0b76090784c664450d32d6",
+	"pnpm": {
+		"onlyBuiltDependencies": ["@parcel/watcher", "esbuild", "unrs-resolver"]
+	}
 }
