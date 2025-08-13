@@ -57,7 +57,7 @@
 	},
 	"devDependencies": {
 		"@heroicons/vue": "2.2.0",
-		"@nuxt/eslint-config": "1.7.0",
+		"@nuxt/eslint-config": "1.8.0",
 		"@nuxt/module-builder": "1.0.1",
 		"@nuxt/schema": "4.0.1",
 		"@nuxtjs/tailwindcss": "6.14.0",
