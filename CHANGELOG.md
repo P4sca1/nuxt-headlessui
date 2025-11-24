@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/P4sca1/nuxt-headlessui/compare/v1.2.1...v1.2.2) (2025-11-24)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([d0125e0](https://github.com/P4sca1/nuxt-headlessui/commit/d0125e08e3925e8ab57b06004d994af2c16841f9))
+
 ## [1.2.1](https://github.com/P4sca1/nuxt-headlessui/compare/v1.2.0...v1.2.1) (2025-07-24)
 
 
