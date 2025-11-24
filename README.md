@@ -1,4 +1,4 @@
-# Nuxt Headless UI ![CircleCI](https://circleci.com/gh/P4sca1/nuxt-headlessui.svg?style=svg)
+# Nuxt Headless UI
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
