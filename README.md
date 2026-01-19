@@ -8,7 +8,7 @@
 [Headless UI](https://headlessui.com) integration for Nuxt.
 Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
-Headless UI documentation for Vue: https://headlessui.com/vue/menu
+Headless UI documentation for Vue: https://headlessui.com/v1/vue
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [🏀 Online playground](https://stackblitz.com/github/P4sca1/nuxt-headlessui?file=playground%2Fapp.vue)
