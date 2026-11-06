@@ -68,7 +68,7 @@
 		"nuxt": "4.2.1",
 		"semantic-release": "25.0.2"
 	},
-	"packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b",
+	"packageManager": "pnpm@12.17.0+sha512.b8d223ebec04b580a89ed206daa71d1bccb6a1ee1d52efa95cc3b0db75271561df8f0d8e2c43add39c5ec08018af7a8a95108e7090f95a29f88727b7a40fd53d",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@parcel/watcher",
