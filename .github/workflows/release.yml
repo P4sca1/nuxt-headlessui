@@ -35,8 +35,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
+      - name: Verify registry signatures of installed dependencies
+        run: pnpm audit signatures
     
       - name: Prepare
         run: pnpm run dev:prepare
