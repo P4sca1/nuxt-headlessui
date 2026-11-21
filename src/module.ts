@@ -1,8 +1,6 @@
-import { provideUseId } from "@headlessui/vue";
 import {
 	addComponent,
 	addImports,
-	addPlugin,
 	createResolver,
 	defineNuxtModule,
 } from "@nuxt/kit";
