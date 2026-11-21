@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.2.3](https://github.com/P4sca1/nuxt-headlessui/releases/tag/v1.2.3)
+
+[Compare to previous version](https://github.com/P4sca1/nuxt-headlessui/compare/v1.2.2...v1.2.3)
+
+### Bug Fixes
+
+- **deps**: update dependencies and ensure compatibility with latest Nuxt (#111) ([c8a173d](https://github.com/P4sca1/nuxt-headlessui/commit/c8a173d8c2136193198516ecbf7bb09d3be7782c))
+
 ## [1.2.2](https://github.com/P4sca1/nuxt-headlessui/compare/v1.2.1...v1.2.2) (2025-11-24)
 
 
