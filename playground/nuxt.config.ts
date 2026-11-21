@@ -4,9 +4,19 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss'
   ],
 
-  headlessui: {
-    prefix: 'Headless'
+  devtools: { enabled: true },
+
+  compatibilityDate: 'latest',
+
+  postcss: {
+    plugins: {
+      // tailwindcss is not hoisted with pnpm, so its nesting plugin can't be resolved from the playground.
+      // Nesting is not used in the playground, so we disable it.
+      'tailwindcss/nesting': false,
+    },
   },
 
-  devtools: { enabled: true }
+  headlessui: {
+    prefix: 'Headless'
+  }
 })

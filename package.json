@@ -51,29 +51,23 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
-		"@headlessui/vue": "^1.7.18",
-		"@nuxt/kit": "^4.2.1",
+		"@headlessui/vue": "^1.7.23",
+		"@nuxt/kit": "^4.6.4",
 		"pathe": "^2.0.3"
 	},
 	"devDependencies": {
 		"@heroicons/vue": "2.2.0",
-		"@nuxt/eslint-config": "1.10.0",
-		"@nuxt/module-builder": "1.0.2",
-		"@nuxt/schema": "4.2.1",
+		"@nuxt/eslint-config": "1.17.0",
+		"@nuxt/module-builder": "1.0.4",
+		"@nuxt/schema": "4.6.4",
 		"@nuxtjs/tailwindcss": "6.14.0",
-		"@semantic-release/changelog": "6.0.3",
-		"@semantic-release/git": "10.0.1",
-		"@types/node": "24.10.1",
-		"eslint": "9.39.1",
-		"nuxt": "4.2.1",
-		"semantic-release": "25.0.2"
+		"@semantic-release/changelog": "7.0.0",
+		"@semantic-release/git": "11.0.1",
+		"@types/node": "26.6.6",
+		"eslint": "10.15.0",
+		"nuxt": "4.6.4",
+		"semantic-release": "26.0.1",
+		"typescript": "5.9.3"
 	},
-	"packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@parcel/watcher",
-			"esbuild",
-			"unrs-resolver"
-		]
-	}
+	"packageManager": "pnpm@12.21.0+sha512.66fd8278ee28935ce951792d34367ff3af5c432a2756445823029533835b8da529bbe0be5130afd56ed0713fb8789e47bad82d93bd5ae2fe54b15562d6276ef0"
 }
