@@ -1,3 +1,5 @@
+# Changelog
+
 ## [1.2.2](https://github.com/P4sca1/nuxt-headlessui/compare/v1.2.1...v1.2.2) (2025-11-24)
 
 
