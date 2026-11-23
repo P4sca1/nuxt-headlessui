@@ -15,7 +15,7 @@ permissions: {}
 jobs:
   release:
     name: Publish to npm
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       contents: read
       # required for npm trusted publishing with OIDC and npm provenance.
